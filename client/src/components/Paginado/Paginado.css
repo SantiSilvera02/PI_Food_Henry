@@ -1,0 +1,43 @@
+.paginado {
+  display: flex;
+  list-style: none;
+  flex-direction: row;
+  justify-content: center;
+  margin: auto;
+}
+
+.flechaspag {
+  border-radius: 10px;
+  border: none;
+  background: transparent;
+  border-radius: 50%;
+  color: white;
+  cursor: pointer;
+}
+
+.flechaspag:hover {
+  background-color: #ef6eae;
+}
+
+.numberpage {
+  cursor: pointer;
+  border: none;
+  background: transparent;
+  width: 2.5em;
+  height: 2.5em;
+  border-radius: 50%;
+  color: white;
+}
+
+.numberpage:hover {
+  background-color: #ef6eae;
+}
+
+.paginaactiva,
+.numberpage:active {
+  background-color: #ef6eae;
+}
+
+.numberpage:focus {
+  background-color: #ef6eae;
+}

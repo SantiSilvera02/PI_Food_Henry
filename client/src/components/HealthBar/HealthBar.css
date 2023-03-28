@@ -1,0 +1,15 @@
+.healthbar {
+  background-color: rgba(0, 0, 0, 0.4);
+  width: 160px;
+  height: 24px;
+  margin-top: 8px;
+}
+
+.dentrohealthbar {
+  color: white;
+  background-color: green;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

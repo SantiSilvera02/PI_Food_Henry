@@ -1,0 +1,52 @@
+.landingbackground {
+  background-image: url("https://www.teahub.io/photos/full/341-3415989_comida-wallpaper.jpg");
+  background-size: cover;
+}
+
+.contlanding {
+  display: flex;
+  background: rgba(255, 255, 255, 0.19);
+
+  box-shadow: 0 4px 30px rgba(151, 0, 0, 0.1);
+  backdrop-filter: blur(2.2px);
+  -webkit-backdrop-filter: blur(2.2px);
+  border: 1px solid rgba(238, 238, 238, 0.24);
+  height: 99vh;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+ 
+
+
+
+
+ .enterbutton  {
+  background: rgba(0, 0, 0, 0.6);
+  border: 2px solid;
+  font: inherit;
+  line-height: 1;
+  margin: 0.5em;
+  padding: 1em 2em;
+  color: #ef6eae;
+
+  transition: 0.25s;
+  cursor: pointer;
+}
+
+.enterbutton :hover,
+.enterbutton :focus {
+  border-color: #ef6eae;
+  background-color: #ef6eae;
+  color: #fff;
+
+  animation: pulse 1s;
+  box-shadow: 0 0 0 2em transparent;
+}
+
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 #ef6eae;
+  }
+} 
