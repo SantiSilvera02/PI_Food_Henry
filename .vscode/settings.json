@@ -1,0 +1,5 @@
+{
+    "liveshare.accessibility.soundsEnabled": false,
+    "audioCues.lineHasBreakpoint": "auto",
+    "audioCues.lineHasError": "off"
+}

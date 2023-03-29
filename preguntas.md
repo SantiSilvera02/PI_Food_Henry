@@ -1,0 +1,10 @@
+diferencia entre res.status(200),  res.json y res.send
+
+/////////////////////////////////////////////////////////
+
+
+
+problema en como ordenar las ROUTES, si en un solo archivo o dejarlo separado pero que debe contener adentro
+
+
+//////////////////////////////////////////////////////////////
